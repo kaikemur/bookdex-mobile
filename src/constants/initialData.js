@@ -1,0 +1,26 @@
+export const initialBooks = [
+  {
+    id: '1',
+    title: 'O Senhor dos Anéis',
+    author: 'J.R.R. Tolkien',
+    category: 'Ficção',
+    status: 'reading',
+    totalPages: 1178,
+    currentPage: 450,
+    rating: 0,
+    description: 'Uma épica aventura na Terra Média',
+    createdAt: new Date().toISOString(),
+  },
+  {
+    id: '2',
+    title: 'Clean Code',
+    author: 'Robert C. Martin',
+    category: 'Técnico',
+    status: 'read',
+    totalPages: 464,
+    currentPage: 464,
+    rating: 5,
+    description: 'Manual de código limpo',
+    createdAt: new Date().toISOString(),
+  },
+];
